@@ -27,7 +27,8 @@
   font-family: "Figaro Sans Serif", Figaro, sans-serif;
   padding-top: 50px;
   color: #4B05A3;
-  font-weight: 500;
+  font-weight: 700;
+  font-size: 24px;
 }
 
 .links a {
@@ -37,7 +38,7 @@
 }
 
 header {
-  border-top: 50px solid black;
+  border-top: 88px solid black;
 }
 
 hr {
@@ -48,27 +49,36 @@ h1 {
   font-family: "Figaro Sans Serif", Figaro, sans-serif;
   font-weight: 600;
   letter-spacing: -1.5px;
-  color: #4B05A3,
+  color: #440296,
 }
 
 html {
   position: relative;
   min-height: 100%;
 }
+
 body {
-  /* Margin bottom by footer height */
   margin-bottom: 60px;
 }
+
 .footer {
   position: absolute;
   bottom: 0;
   width: 100%;
-  /* Set the fixed height of the footer here */
-  height: 60px;
+  height: 88px;
   background-color: black;
+  color:#4701A0
 }
 
-.footer {
-    color:#4701A0
+body {
+   background: url('hacker.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 600px;
+
+
 }
+    
    
