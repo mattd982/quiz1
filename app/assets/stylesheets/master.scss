@@ -4,29 +4,30 @@
   clear: both;
 }
 
-.circle {
+.square {
     font-weight: bold;
     font-style: italic;
     position: relative;
     border-radius: 100%;
-    background: #f84342;
-    border: 1px solid #F7F7F7;
+    background: black;
+    border: 4px solid #4B05A3;
     width: 80px;
     height: 80px;
     margin: 10px 10px;
     text-align: center;
-    color: #FFF;
-    font-size: 10px;
+    color: #4B05A3;
+    font-size: 12px;
     line-height: 16px;
     cursor: pointer;
-    transform: rotate(11deg);
+    transform: rotate(0deg);
     
 }
 
 .slogan {
-  font-family: "Figaro Sans Serif", Figaro, sans serif;
+  font-family: "Figaro Sans Serif", Figaro, sans-serif;
   padding-top: 50px;
-  color: purple;
+  color: #4B05A3;
+  font-weight: 500;
 }
 
 .links a {
@@ -36,10 +37,38 @@
 }
 
 header {
-  border-top: 50px solid red;
+  border-top: 50px solid black;
 }
 
 hr {
   clear:both;
+}
+
+h1 {
+  font-family: "Figaro Sans Serif", Figaro, sans-serif;
+  font-weight: 600;
+  letter-spacing: -1.5px;
+  color: #4B05A3,
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: black;
+}
+
+.footer {
+    color:#4701A0
 }
    

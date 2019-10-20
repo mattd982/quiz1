@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Splurty</title>
+  <title>Quiz1</title>
   <%= csrf_meta_tags %>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
@@ -9,7 +9,7 @@
 <body>
   <header class="row">
     <div class="col-3">
-      <div class="circle">
+      <div class="square">
        <br />
         First
         <br />
@@ -19,11 +19,11 @@
       </div>
     </div>
     <div class="col-4 slogan">
-      Splurting out unsolicited advice about entrepreneurship since 2016
+      Learning how to code, creating my first web app
     </div>
     <div class="col-5 links">
-      <%= link_to 'Contribute', '#' %>
-      <%= link_to 'About', '#' %>
+      <%= link_to '', '#' %>
+      Coding
     </div>
   </header>
   
@@ -32,6 +32,24 @@
 <br class="clear" />
 
 <%= yield %>
+ </div>
+
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-6">
+        Creating a basic 
+        <br/>
+        web page
+      </div>
+      <div class="col-6 footer-blurb">
+        Proudly designed by 
+        <br/>
+        Matt Day 
+      </div>
+        </div>
+      </div>
+    </div>
 
 </body>
 </html>
